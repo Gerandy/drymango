@@ -21,7 +21,7 @@ Taste the difference of real, high-quality mangoes — naturally sweet, always s
           </p>
           <div className="flex justify-center space-x-4">
             <a
-              href="#projects"
+              href="#shop"
               className="bg-yellow-500 text-white py-3 px-6 rounded font-medium transition relative overflow-hidden hover:-translate-y-0.5 hover:shadow-[0_0_15px_rgba(255,160,0,0.4)]"
             >
               View Products
