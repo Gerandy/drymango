@@ -1,25 +1,25 @@
 import { useState } from "react";
 import { RevealOnScroll } from "../RevealOnScroll";
+import product1 from "../../assets/icon.png";
+import product2Img from "../../assets/product2.png";
 
 const products = [
-  
 	{
 		id: 1,
 		name: "Dried Manggo Bliss Bites",
 		description: "Enjoy the natural sweetness of sun-ripened mangoes from the Philippines! Soft, chewy, and bursting with tropical flavor — perfect for snacking anytime, anywhere.",
-		price: 2500,
+		price: 150,
 		tech: ["100% Real Mango", " No Preservatives", "Rich in Vitamins A & C"],
-		image: "src/assets/icon.png",
+		image: product1,
 	},
-  {
-		id: 1,
+	{
+		id: 2,
 		name: "Dried Manggo Bliss Bites Spicy",
 		description: "A bold twist on a tropical classic! Our Spicy Dried Mangoes combine the natural sweetness of sun-ripened Philippine mangoes with a fiery chili kick. Perfect for those who crave sweet heat in every bite.",
-		price: 2500,
+		price: 180,
 		tech: ["100% Real Mango", " No Artificial Flavors", "Sweet, Tangy & Spicy Snack"],
-		image: "src/assets/product2.png",
+		image: product2Img,
 	},
-  
 ];
 
 export const Projects = ({ cart, setCart, showCart, setShowCart }) => {
