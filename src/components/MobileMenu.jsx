@@ -74,7 +74,7 @@ export const MobileMenu = ({ menuOpen, setMenuOpen, onCartClick, cartCount }) =>
                     setMenuOpen(false);
                     onCartClick();
                 }}
-                className="mt-8 bg-purple-500 text-white px-6 py-2 rounded shadow hover:bg-purple-600 transition relative text-xl"
+                className="mt-8 bg-yellow-500 text-white px-6 py-2 rounded shadow hover:bg-yellow-600 transition relative text-xl"
             >
                 Cart
                 {cartCount > 0 && (
